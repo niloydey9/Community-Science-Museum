@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+// font-family
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Roboto', sans-serif;
+/* ionicons */
+@import url('https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #555555;
+    background-color: #fff;
+    letter-spacing: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+// back-to-top style start
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #282828;
+}
+a{
+    text-decoration: none;
+	transition: all .3s ease-in-out;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a.custom-button {
+    background: $primary-color;
+    padding: 9px 36px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    &:hover{
+        background: $secondary-color;
+        color: #fff;
+    }
+}
+
+.z-index-container {
+    position: relative;
+    z-index: 9;
+}
